@@ -1,0 +1,6 @@
+*load regulation
+.include ../AE01.01.01.144.cir
+.param VSOURCE=30
+.param ILOAD=5
+.dc I1 0 {ILOAD} 0.001
+
